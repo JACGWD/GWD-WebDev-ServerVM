@@ -6,13 +6,14 @@ sudo apt update &&
 apt upgrade &&  
 # run the update on any software that is currently installed
 
-apt install -y chromium-browser filezilla flameshot apache2 php mysql-server openssh-server && 
+apt install -y chromium-browser filezilla flameshot apache2 php mysql-server phpmyadmin openssh-server && 
 # install (using the -y "yes" option) these new software packages:
 #  the Chromium browser (the project Google Chrome is based on)
 #  the FileZilla FTP client
 #  the Flameshot screen capture program
 #  the Apache (version 2) http server
 #  the MySQL database server
+#  PHPMyAdmin GUI webapp frontend for MySQL
 #  the SSH secure shell server for sftp
 
 
